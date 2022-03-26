@@ -216,8 +216,8 @@ def main():
 
         Artificial Intelligence technology is developing fast:
         - Whilst AI technologies stride to improve efficiency in our everyday lives, the soft side of AI is still falling behind.
-        - We will be interacting with computers more than ever, and it is crucial to develop AI that communicates smoothly to us just like another human.
-        - As a result we decided to develop a realtime Emotion Detector, allowing AI to emphasise more with humans.
+        - We will be interacting with computers more than ever, and it is crucial to develop AI that can communicate with us on a human level.
+        - As a result we decided to develop a realtime Emotion Detector.
         - This allows for endless possibilities to advance AI applications in areas such as healthcare or detecting drunk drivers.
         ### Try it out yourself: how are you feeling today? :blush:
         ''')
@@ -321,7 +321,7 @@ def main():
 
             Often CNNs models are trained with the tensorflow [VGG16](https://www.tensorflow.org/api_docs/python/tf/keras/applications/vgg16/VGG16) transfer learning model. In our case, we ended up using a less complex model that is four times smaller in term of size. So that we can have it run super smooth on the website. Our accuracy of the small model is not the best across all models, but it is good enough to predict emotions.
 
-            We used the FER 2013 (https://www.kaggle.com/msambare/fer2013) dataset, which contains 32,900 + images including 8 emotion categories – anger, contempt, disgust, fear, happiness, neutrality, sadness and surprise.
+            We used the FER 2013 (https://www.kaggle.com/msambare/fer2013) dataset, which contains 28,000 + images including 7 emotion categories – anger, disgust, fear, happiness, neutrality, sadness and surprise.
 
             To achieve better accuracy and an effective tradeoff with timing, we narrowed our model down to 6 emotion categories – anger, disgust, fear, happiness, sadness and surprise.
 
